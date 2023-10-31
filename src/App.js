@@ -31,12 +31,13 @@ function App() {
  
   function resetInput(e) { 
     e.preventDefault(); 
-    inputRef.current.value = 0
+    inputRef.current.value = 0;
   }; 
  
   function resetResult(e) { 
     e.preventDefault(); 
-    inputRef.current.value = 0
+    setResult((result) => result * 0);
+    inputRef.current.value = 0;
   }; 
  
   return ( 

@@ -12,12 +12,17 @@ input {
   margin-bottom: 20px;
 }
 button {
-  border: 1px solid gray;
+  border: 1px solid #5BCEFA;
   background: whitesmoke;
   margin-right: 5px;
 }
 button:nth-last-child(2),
 button:nth-last-child(1) {
-  background: tomato;
-  color: white;
+  background:  #F5A9B8;
+  color: black;
 }
+/* 
+.resultRef {
+  display: block;
+  margin-bottom: 20px;
+} */
